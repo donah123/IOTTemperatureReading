@@ -1,6 +1,6 @@
 var five = require("johnny-five");
 var Raspi = require("raspi-io");
-var BME280 = require('node-adafruit-bme280');
+var BME280 = require('./index.js')
 
 function fetchTemperature(callback){
 BME280.probe(function(temperature,pressure,humidity)
