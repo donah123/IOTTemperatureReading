@@ -1,0 +1,21 @@
+{
+  "name": "iot-ca-demo",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Demo IoT app using IoT Hub",
+  "author": "Ben Lambert @ Cloud Academy",
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "azure-iot-device": "^1.1.3",
+    "azure-iot-device-http": "1.1.7",
+    "azure-iot-device-mqtt": "^1.1.3",
+    "ds18x20": "*",
+    "johnny-five": "*",
+    "node-adafruit-bme280": "^1.0.2",
+    "raspi-io": "*"
+  }
+}
